@@ -15,4 +15,10 @@ public class ToDoControllerTest {
         assertEquals(1, controller.todo().size());
     }
 
+    @Test
+    public void testPing() {
+        ToDoController controller = new ToDoController();
+        assertEquals("{ \"status\": \"ok\", \"userId\": \"admin\", \"languageCode\": \"de\",\"version\": \"0.0.1\"}", controller.ping());
+    }
+
 }
