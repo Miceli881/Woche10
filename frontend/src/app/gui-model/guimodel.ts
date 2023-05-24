@@ -11,7 +11,7 @@ export class GuiModel {
                     "formFieldList": [
                         {
                             "type": "okButton",
-                            "name": 'Ok'
+                            "name": "Ok"
                         }
                     ]
                 },
