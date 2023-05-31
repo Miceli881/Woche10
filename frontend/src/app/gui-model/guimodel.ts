@@ -107,6 +107,15 @@ export class GuiModel {
                             "width": 2,
                             "newRow": true,
                         },
+                        {
+                            "type": "button",
+                            "name": { default: "This is another Kachel Item" },
+                            "icon": "fa-file-alt",
+                            "color": "green",
+                            "page": "toDoPage",
+                            "width": 2,
+                            "newRow": true,
+                        },
                     ]
                 },
                 {
